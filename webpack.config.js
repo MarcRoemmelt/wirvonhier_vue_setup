@@ -21,7 +21,7 @@ const StyleLintPlugin = require('stylelint-webpack-plugin');
 const VERSION = require('./package.json').version;
 
 module.exports = async function (env, argv) {
-  const isProd = arv && argv.mode === 'production';
+  const isProd = argv && argv.mode === 'production';
   const isTest = env === 'test';
 
   return {
