@@ -3,7 +3,7 @@ import { wrap } from 'comlink';
 import { IStore } from '@/store';
 
 export const attachWorker = async (store: IStore): Promise<void> => {
-  const worker = wrap(new Worker('./worker.js', { type: 'module' }));
+  const worker = wrap(new Worker('./worker.ts', { type: 'module' }));
   store.$worker = worker;
 
   Vue.mixin({
