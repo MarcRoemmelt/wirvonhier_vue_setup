@@ -88,7 +88,7 @@
   "dependencies": {
     "axios": "^0.19.2",
     "comlink": "^4.2.0",
-    "dexie": "^2.0.4",
+    "dexie": "^3.2.2",
     "dotenv": "^8.2.0",
     "vue": "^2.6.11",
     "vue-class-component": "^7.2.3",
